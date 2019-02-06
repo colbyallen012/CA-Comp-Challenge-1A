@@ -1,0 +1,278 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	min-width: 320px;
+	height: auto;
+	background-color: #191919;
+	border-style: solid;
+	border-width: thick;
+	border-color: black;
+}
+
+.admin-logo {
+	padding: 3px;
+	position: relative;
+	top: 7px;
+}
+
+.share-button, .tv-button, .tshirt-button {
+	position: relative;
+	top: 4px;
+	right: 4px;
+}
+
+h3 {
+	text-align: right;
+	margin: 0px 0px 5px 0px;
+	padding: 10px 10px 0px 0px;
+	color: white;
+}
+
+h3:hover {
+	color: #D2D2D2;
+	font-size: 21px;
+}
+
+ul {
+	display: inline-block;
+	float: left;
+	padding: 0px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	font-weight: bold;
+	color: white;
+}
+
+li {
+	display: inline-block;
+	text-align: left;
+	margin: 5px;
+}
+
+li:hover {
+	color: #D2D2D2;
+	font-size: 18px;
+}
+
+h2 {
+	margin: 20px 0px 15px 15px;
+	display: inline-block;
+	width: 100%
+}
+
+section.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 10px;
+	background-color: #D2D2D2;
+}
+
+article.card {
+	height: 373px;
+	width: 259px;
+	margin: 5px;
+	background-color: #FCFCFC;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+figure.michael-scott {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/michael-scott.jpeg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 259px;
+	height: 160px;
+	margin: 0px;
+}
+
+figure.jim-halpert {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/jim-halpert.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 259px;
+	height: 160px;
+	margin: 0px;
+}
+
+figure.pam-beesly {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/pam-beesly.jpeg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 259px;
+	height: 160px;
+	margin: 0px;
+}
+
+figure.dwight-schrute {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/dwight-schrute.jpeg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 259px;
+	height: 160px;
+	margin: 0px;
+}
+
+figure.andy-bernard {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/andy-bernard.jpeg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 259px;
+	height: 160px;
+	margin: 0px;
+}
+
+figure.angela-martin {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/angela-martin.jpeg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 259px;
+	height: 160px;
+	margin: 0px;
+}
+
+figure.stanley-hudson {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/stanley-hudson.jpeg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 259px;
+	height: 160px;
+	margin: 0px;
+}
+
+figure.phyllis-vance {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/phyllis-vance.jpeg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 259px;
+	height: 160px;
+	margin: 0px;
+}
+
+img.arrow {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin: 15px;
+}
+
+p.rank {
+	text-align: right;
+	color: #EAEAEA;
+	margin: 0px;
+	padding: 20px 10px 0px 5px;
+}
+
+p.rank-num {
+	text-align: right;
+	color: #EAEAEA;
+	margin: 0px;
+	padding: 0px 10px 5px 5px;
+	font-size: 30px;
+}
+
+h4 {
+	margin: 15px 0px 0px 15px;
+	text-align: left;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+p.title {
+	margin: 0px 0px 0px 15px;
+	text-align: left;
+	color: grey;
+	font-size: 13px;
+	font-weight: lighter;
+}
+
+p.link {
+	background-color: #D2D2D2;
+	font-size: 12px;
+	color: #727171;
+	margin: 15px;
+	padding: 8px;
+	overflow-wrap: break-word;
+}
+
+p.link:hover {
+	color: #2C73CE;
+	font-size: 15px;
+}
+
+h5 {
+	margin: 9px 0px 0px 15px;
+	text-align: left;
+	color: black;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+p.actor {
+	margin: 0px 0px 10px 15px;
+	text-align: left;
+	color: black;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+a {
+	text-decoration: none;
+}
+
+p.episodes {
+	margin: 5px 0px 0px 15px;
+	text-align: left;
+	color: #2C73CE;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 360px) {
+
+	h3 {
+		text-align: center;
+	}
+
+	img.logo {
+		margin: 0px 100px 0px 100px;
+	}
+
+	ul {
+		display: block;
+		width: 100%;
+		position: relative;
+		top: 5px;
+		margin: 0px 100px 0px 100px;
+	}
+
+	li {
+		display: block;
+		width: 100%;
+	}
+
+	h2 {
+		margin: auto;
+		text-align: center;
+	}
+
+	article.card {
+		margin: 10px auto;
+	}
+}
+
+
+
